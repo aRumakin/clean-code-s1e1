@@ -22,9 +22,10 @@ body {
 
 @media (max-width:768px) {
   .aaa { text-align: center;
-}
+  }
 
 }
+
 .centered-main-page-element {
   display: block;
   width: 500px;
@@ -70,7 +71,7 @@ button:hover {
 
 /* Heading */
 h3,
-label[for='new-task'] {
+label[for="new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -153,11 +154,11 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+ul li input[type="text"] {
   display:none
 }
 
-ul li.editMode input[type=text] {
+ul li.editMode input[type="text"] {
   display:inline-block;
   width:224px
 }
