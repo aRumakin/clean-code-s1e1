@@ -52,7 +52,7 @@
 .btn {
   border: 0px;
   width: 60px;
-  font: 15px lato, sans-serif;
+  font-size: 15px;
   cursor: pointer;
   color: #888;
 }
@@ -79,7 +79,7 @@
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font: 18px lato, sans-serif;
+  font-size: 18px;
   color: #888;
 }
 
