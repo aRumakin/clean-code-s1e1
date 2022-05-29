@@ -15,7 +15,7 @@
   width: 100%;
 }
 
-.more-info {
+.matrix-info {
   font-family: fantasy, cursive;
 }
 
@@ -27,7 +27,7 @@
 
 }
 
-.task-container {
+.container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -62,7 +62,7 @@
 }
 
 /* Heading */
-.heading {
+h3 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -139,15 +139,15 @@
 }
 
 /* Edit Task */
-.todos-container .task-text {
+.container-todos .task-text {
   display: none;
 }
 
-.todos-container .edit-task .task-text {
+.container-todos .edit-task .task-text {
   display: inline-block;
   width: 347px;
 }
 
-.todos-container .edit-task .task-label {
+.container-todos .edit-task .task-label {
   display: none;
 }
