@@ -98,7 +98,7 @@ h3 {
 }
 
 /* Task list */
-.task-list {
+.task {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid rgb(227, 227, 227);
@@ -107,7 +107,7 @@ h3 {
   align-items: center;
 }
 
-.cb {
+.task-cb {
   margin: 0 10px;
 }
 
@@ -143,11 +143,11 @@ h3 {
   display: none;
 }
 
-.container-todos .edit-task .task-text {
+.edit-task .task-text {
   display: inline-block;
   width: 347px;
 }
 
-.container-todos .edit-task .task-label {
+.edit-task .task-label {
   display: none;
 }
